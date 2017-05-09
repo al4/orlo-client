@@ -270,7 +270,6 @@ class OrloClient(object):
 
         return self._expect_200_json_response(response, status_code=204)
 
-
     def package_add_results(self, package, results):
         """
         Add results to a package
