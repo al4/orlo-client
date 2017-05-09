@@ -262,7 +262,6 @@ class WorkflowTest(OrloClientTest):
         self.assertEqual(
                 self.orlo.package_add_results(self.PACKAGE, results='test results'), True)
 
-
     @httpretty.activate
     def test_package_stop_with_success_true(self):
         """
